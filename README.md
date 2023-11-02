@@ -2,7 +2,8 @@
 
 ## Below are the requirements for the report,
 
-```Please do same exercise using two different framework.
+```
+Please do same exercise using two different framework.
 
 Framework 1. pandas
 framework 2. apache beam python https://beam.apache.org/documentation/sdks/python/
@@ -28,9 +29,8 @@ L2,Total,Total,calculated_value, calculated_value,calculated_value
 
 like all other values.
 
-where caluclated_value in sample data needs to be calculated using above method.```
-
-
+where caluclated_value in sample data needs to be calculated using above method.
+```
 ## Assumptions
 
 * All the aggregations are carried out based on the unique values for legal_entity, counter_party, tier
@@ -40,5 +40,4 @@ where caluclated_value in sample data needs to be calculated using above method.
 
 1. gen_report_pandas.ipynb - for pandas implementation
 2. gen_report_beam.ipynb - for Apache Beam implementation
-
 
