@@ -1,6 +1,6 @@
-This project is to generate a report of processing two datasets and aggregate the data of the two datasets
+# This project is to generate a report of processing two datasets and aggregate the data of the two datasets
 
-Below are the requirements for the report,
+## Below are the requirements for the report,
 
 ```Please do same exercise using two different framework.
 
@@ -29,4 +29,16 @@ L2,Total,Total,calculated_value, calculated_value,calculated_value
 like all other values.
 
 where caluclated_value in sample data needs to be calculated using above method.```
+
+
+## Assumptions
+
+* All the aggregations are carried out based on the unique values for legal_entity, counter_party, tier
+* Again the total elements were calculated based on unique values for legal_entity, counter_party, tier
+
+## Two Notebooks created
+
+1. gen_report_pandas.ipynb - for pandas implementation
+2. gen_report_beam.ipynb - for Apache Beam implementation
+
 
