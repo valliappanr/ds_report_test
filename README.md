@@ -25,7 +25,7 @@ L1, C1, Total,calculated_value, calculated_value,calculated_value
 Total,C1,Total,calculated_value, calculated_value,calculated_value
 Total,Total,1,calculated_value, calculated_value,calculated_value
 L2,Total,Total,calculated_value, calculated_value,calculated_value
-....
+
 like all other values.
 
 where caluclated_value in sample data needs to be calculated using above method.```
